@@ -23,8 +23,6 @@ jest.mock('../../../../store/actions', () => ({
   removePollingTokenFromAppState: jest.fn(),
   setAdvancedGasFee: jest.fn(),
 }));
-const updateDefaultSettings = jest.fn();
-const handleUpdateDefaultSettings = jest.fn().mockReturnThis(() => undefined);
 const render = (defaultGasParams) => {
   const store = configureStore({
     metamask: {
