@@ -186,7 +186,7 @@ export default function ConfirmationPage() {
       <div className="confirmation-page__content">
         <Box
           alignItems="center"
-          marginTop={6}
+          marginTop={1}
           padding={[1, 4, 4]}
           flexDirection={FLEX_DIRECTION.COLUMN}
         >
